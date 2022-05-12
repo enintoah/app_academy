@@ -1,0 +1,44 @@
+    body {
+    font-family: arial, sans-serif; }
+    
+    h1 {
+        font-size: 38px;
+    }
+    h2 {
+        font-size: 32px;
+    }
+
+    .ingredients-list { list-style: square inside;
+    }
+
+    ul a { text-decoration: none; 
+    color: inherit;}
+
+    ol { 
+        list-style: circle inside; }
+
+    header > img { width: 100px;
+    }
+
+    *{ background-color: lightblue;}
+
+    input[type="radio"], select, input[type="submit"] { cursor: pointer; outline: none;}
+
+    input:last-child { background-color: gold; }
+    input:last-child:hover { -webkit-filter: brightness(90%);}
+
+    input[type="radio"] { -webkit-appearance: none;background-image: url(./stars.png); 
+        height: 30px;
+        width: 30px;
+    }
+
+    input[type="radio"]:hover { background-position: 30px;}
+
+    input[type="radio"]:checked { background-position: 30px 30px;}
+
+    ol li:nth-child(even) { background-color: lightgrey;}
+
+    h2 + .user_review { 
+        border-top: 1px solid black; }
+
+
