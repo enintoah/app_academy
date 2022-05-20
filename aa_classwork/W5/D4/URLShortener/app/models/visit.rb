@@ -1,0 +1,4 @@
+class Visit < ApplicationRecord
+
+    
+end
