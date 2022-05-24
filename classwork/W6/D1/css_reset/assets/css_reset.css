@@ -1,0 +1,17 @@
+html, body, section, article, h1, h2, p, aside{
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-family: inherit;
+  font: inherit;
+  text-align: inherit;
+}
+
+body {
+  line-height: 1.5;
+
+}
+
+img {
+
+}
