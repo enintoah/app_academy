@@ -1,0 +1,11 @@
+<h1><%= @post.title %> by <%= @user.join %></h1>
+
+<p><strong>Content</strong>
+<br>
+<br>
+<%= @post.content %>
+</p>
+
+<strong>subs</strong> 
+<br>
+<a href="<%= sub_url(@post.sub_id) %>"><%= @sub.join %></a>
