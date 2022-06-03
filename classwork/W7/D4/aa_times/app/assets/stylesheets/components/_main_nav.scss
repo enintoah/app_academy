@@ -1,0 +1,55 @@
+.main-nav {
+  display: flex;
+  justify-content: space-between;
+  padding: 10px;
+}
+
+.left-nav > ul,
+.right-nav > ul {
+  display: flex;
+  align-items: baseline;
+}
+
+.left-nav {
+
+  > ul {
+    > li { 
+      font-family: 'Times New Roman', Times, serif ;
+      font-size: 16px ;
+      text-transform: uppercase;
+      margin: 10px;
+      padding: 10px;
+      border-radius: 10px ;
+    }
+  }
+
+  span {
+    margin: 5px;
+  }
+}
+
+.right-nav  {
+
+  > ul {
+
+    > li {
+  
+    }
+
+    > li:last-of-type {
+      font-size: 24px;
+      position: relative;
+    }
+  }
+  
+  i {
+
+  }
+}
+
+.left-nav > ul > li:hover,
+.right-nav > ul > li:last-of-type:hover {
+  background-color: lightgray;
+}
+
+

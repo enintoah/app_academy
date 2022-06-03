@@ -1,0 +1,34 @@
+// Use the gear_dropdown.png screenshot as a style guide
+.gear-dropdown {
+  position: absolute;
+  top: 35px;
+  right: 0px;
+  display: none;
+  // background-color: lightyellow;
+  background: lightyellow;
+  padding: 10px;
+  z-index: 1;
+  width: 250px;
+  border: 1px solid black;
+  border-radius: 3px;
+
+  li {
+      font-size: 16px;
+  }
+}
+
+.gear-dropdown:hover {
+    display: block;
+    // transition-delay: 10s;
+}
+
+#gear-icon:hover {
+  .gear-dropdown {
+    display: block;
+    transition-delay: 30000s;
+  }
+}
+
+.editions li:hover {
+  background-color: lightgrey;
+}

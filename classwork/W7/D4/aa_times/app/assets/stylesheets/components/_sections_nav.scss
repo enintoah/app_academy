@@ -1,0 +1,20 @@
+.section-links {
+    display: flex;
+    justify-content: center;
+    li {
+        display: flex;
+        font-family: $sans-serif;
+        font-size: 11px;
+        margin-top: 10px;
+        margin-bottom: 10px;
+        flex-direction: column;
+        margin: 10px;
+    }
+    li:last-child {
+        text-decoration: underline;
+        text-transform: uppercase;
+    }
+    a:hover {
+      background-color: $light-gray;
+    }
+}
