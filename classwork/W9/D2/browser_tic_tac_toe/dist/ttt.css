@@ -1,0 +1,36 @@
+ul {
+  display: flex;
+  flex-wrap: wrap;
+  width: 600px;
+  height: 500px;
+}
+
+li {
+  width: 180px;
+  border: solid black;
+  list-style: none;
+}
+
+li:hover {  
+  background-color: yellow;
+} 
+
+h1 {
+  display: flex;
+  justify-content: center;
+}
+
+figure {
+  display: flex;
+  justify-content: center;
+}
+
+.x {
+  background-color: red;
+  content: "x";
+}
+
+.o {
+  background-color: green;
+  content: "o";
+}
