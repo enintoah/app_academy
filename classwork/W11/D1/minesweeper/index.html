@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <script src="./dist/bundle.js"></script>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="application.css">
+  <title>Document</title>
+</head>
+<body>
+  <h1>MineSweeper</h1>
+  <h2>Alt-Click to flag a tile!</h2>
+  <h2>Click to explore a tile!</h2>
+  <section id="game">
+  </section>
+
+  <div class="modal" id="modal">
+    <form class="modal-form">
+
+      <span class="modal-close js-modal-close">&times;</span>
+      <h1 id="message"></h1>
+      <div class="submit">
+        <button>Restart Game</button>
+      </div>
+    </form>
+    <div class="modal-screen js-modal-close"></div>
+  </div>
+
+
+<script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+  <script>
+  $(function(){
+
+    $("body").on("click", ".js-modal-close", function(event){
+      event.preventDefault();
+      $(".modal").removeClass("is-open");
+    });
+
+  });
+  </script>
+
+</body>
+</html>
